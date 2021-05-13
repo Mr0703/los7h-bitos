@@ -27,36 +27,208 @@
     background-color: rgb(194, 203, 229);
 }
 
-
-
-.contenedor .widget-1,
-.contenedor .widget-2,
-.contenedor .widget-3 {
+.contenedor .widget-1 {
     background-color: rgb(139, 0, 0);
-    color: rgb(255, 255, 255);
-}
-
-
-.contenedor .widget-4,
-.contenedor .widget-5,
-.contenedor .widget-6 {
-    background-color: rgb(21, 42, 133);
-    color: rgb(255, 255, 255);
-}
-
-.contenedor .widget-7 {
-    background-color: rgb(221, 112, 48);
     grid-column-start: 1;
+    grid-column-end: 2;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .widget-11 {
+    background-color: rgb(99, 114, 131);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: rgb(255, 255, 255);
+}
+
+
+.contenedor .widget-2 {
+    background-color: rgb(139, 0, 0);
+    grid-column-start: 3;
     grid-column-end: 4;
     color: rgb(255, 255, 255);
 }
 
-.contenedor .widget-8 {
+.contenedor1{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor1 > div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.contenedor1 .widget-3 {
     background-color: rgb(139, 0, 0);
     grid-column-start: 2;
     grid-column-end: 2;
     color: rgb(255, 255, 255);
 }
+
+
+.contenedor2{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor2 > div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor2 .widget-4 {
+    background-color: rgb(139, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor3{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor3 > div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor3 .widget-5 {
+    background-color: rgb(139, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: rgb(255, 255, 255);
+}
+
+
+.contenedor4{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor4 > div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor4 .widget-6 {
+    background-color: rgb(139, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor5{
+    
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor5 > div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor5 .widget-7 {
+    background-color: rgb(139, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor6{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor6 > div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor6 .widget-8 {
+    background-color: rgb(139, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: rgb(255, 255, 255);
+}
+.contenedor7{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor7 > div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor7 .widget-9 {
+    background-color: rgb(139, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor8{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor8 > div{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor8 .widget-10 {
+    background-color: rgb(139, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: rgb(255, 255, 255);
+}
+
+
 
 
 @media screen and (max-width: 768px) {
