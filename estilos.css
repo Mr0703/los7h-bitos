@@ -38,7 +38,10 @@ body{
 }
 
 .contenedor .widget-3,
-.contenedor .widget-4 {
+.contenedor .widget-4,
+.contenedor .widget-5,
+.contenedor .widget-6,
+.contenedor .widget-7 {
     background-color: rgb(139, 0, 0);
     color: rgb(255, 255, 255);
 }
